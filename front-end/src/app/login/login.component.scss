@@ -1,0 +1,134 @@
+.bg {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	background: rgb(243, 72, 86);
+	background: linear-gradient(-115deg,rgb(243, 72, 86),#11024c);
+	padding-top: 0;
+    margin: 0;
+	
+	
+	}
+
+.liste {
+	list-style-type: none;
+	margin-top: 2%;
+	margin-bottom: 3.6%;
+	
+	
+}
+
+
+.logo-blanc
+{  
+
+	margin-top: -20.5%;
+	width:100%;
+}
+
+.connexion
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.form-rouge
+{
+	text-align: center;
+	border: solid 3px #11024c;
+	margin-top: -41%;
+	color: #11024c;
+	margin-bottom: 1.5%;
+    font-size: 25px;
+	background-color: #dedee423;
+	
+}
+.fd-bleu
+{
+	
+	color:#11024c;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 200%;
+}
+.lstform
+{
+text-align: left;
+margin-bottom: 0.1%;
+margin-left: 27%;
+margin-right: 27%;
+}
+.input{
+	width:100%;
+}
+.mtp{
+	font-size:50%;
+	margin-left: -30%;
+	color:#11024c;
+}
+.checkbox{
+	font-size:50%;
+	margin-left: -30%;
+	color:#11024c;
+
+}
+.txtc{
+	color:#11024c;
+	margin-left: 5%;
+}
+
+.buttons
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+	width: 100%;
+	}
+
+.validate
+{
+background-color: rgb(243, 72, 86);
+color: #ffffff;
+border-color: rgb(243, 72, 86);
+
+margin-bottom: -2%;
+}
+.checkbox{
+	text-align: center;
+}
+body {
+	align-items: center;
+	background-color: #f5f5f5;
+  }
+  
+  .form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+  }
+  .form-signin .checkbox {
+	font-weight: 400;
+  }
+  .form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+	z-index: 2;
+  }
+  .form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+  }
+  

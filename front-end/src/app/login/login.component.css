@@ -1,0 +1,66 @@
+body {
+  align-items: center;
+  background: #9f9fa1cb;
+
+}
+.logo-blanc
+{  
+
+	margin-top: -80%;
+  margin-bottom: -65%;
+  margin-left: -60%;
+	width:200%;
+} 
+.cont{
+  border: solid #11024c;
+   
+}
+.title{
+  font-size: 300%;
+  color:rgb(243, 72, 86);
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+  color:#11024c;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: white;
+  margin-top: 5%;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: white;
+}
+
+
+.validate
+{
+background-color: #11024c;
+color:rgb(243, 72, 86);
+border-color: #11024c;
+margin-bottom: 2.2%;
+}

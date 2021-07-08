@@ -1,0 +1,93 @@
+.bg{
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	padding: 18px;
+	background: rgb(243, 72, 86);
+	background: linear-gradient(-115deg,rgb(243, 72, 86),#11024c);
+
+	
+	
+	}
+	.gp-textarea {
+		border: 1px solid #ced4da;
+		height: 110px;
+		width: 100%;
+		resize: none;
+		font-weight: 500;
+		font-size: 15px;
+		padding: 8px;
+	  }
+	  .img_profil {
+		object-fit: cover;
+	  }
+	  .gp-icon {
+		height: 50px;
+	  }
+	  .imagePreview {
+		max-height: 300px;
+	  }
+
+.liste {
+	list-style-type: none;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+}
+
+
+.logo-blanc
+{  
+
+	margin-top: -21.5%;
+	width:100%;
+}
+
+.connexion
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.form-rouge
+{
+	text-align: center;
+	border: solid 3px #11024c;
+	margin-top: -40%;
+	color: #11024c;
+	margin-bottom: 1.5%;
+    font-size: 25px;
+	background-color: #dedee423;
+	
+}
+.fd-bleu
+{
+	
+	color:#11024c;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 200%;
+}
+.lstform
+{
+text-align: left;
+margin-bottom: 1%;
+margin-left: 27%;
+margin-right: 27%;
+}
+.input{
+	width:100%;
+}
+.mtp{
+	font-size:50%;
+	margin-left: -30%;
+	color:#11024c;
+}
+
+.txtc{
+	color:#11024c;
+	margin-left: 5%;
+}
+
+
