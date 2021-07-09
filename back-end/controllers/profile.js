@@ -15,6 +15,7 @@ pwd
 .has().digits() // un chiffre
 
 exports.getProfileById = async (req, res) => {
+    // On récupére les informations de l'utilisateur( users/posts/comments)
     const userTable = []
     const userPost = []
     const userSQL = mysql.format(`SELECT lastname, firstname, img_profil, description, role FROM users WHERE id = ?`, [req.params.id])
@@ -66,7 +67,6 @@ exports.getProfileById = async (req, res) => {
                     msg: postComment[0][j].msg
                 })
             }
-
             userPost.push({
                 id: i,
                 postId: post[0][i].id,
@@ -88,9 +88,7 @@ exports.getProfileById = async (req, res) => {
             editable: false,
             post: userPost
         })
-
         res.status(200).json(userTable)
-
     }catch(err) { // Récupére une erreur et l'envoie au client
         return res.status(500).json(err)
     }
@@ -108,7 +106,6 @@ exports.editProfile = async (req, res) => {
             if (!description && req.file) return mysql.format(`UPDATE users SET img_profil = ? WHERE id = ?`, [req.file.filename, req.token.userId])
             return mysql.format(`UPDATE users SET description = ?, img_profil = ? WHERE id = ?`, [description, req.file.filename, req.token.userId])
         }
-
         if (req.file) {
             const userSQL = mysql.format(`SELECT img_profil FROM users WHERE id = ?`, [req.token.userId])
             const user = await db.query(userSQL)
@@ -117,14 +114,11 @@ exports.editProfile = async (req, res) => {
             if (user[0][0].img_profil) fs.unlink('images/profile/' + user[0][0].img_profil, (err) => {
                 if (err) res.status(500).json({err: 'error while deleting image'})
             })
-
         }
-
         if (description || req.file) {
             const update = await db.query(SQL())
             if (!update) throw 'update error'
         }
-
         if (!password) return res.status(201).json({message: 'ok'})
         if (!pwd.validate(password)) throw 'Votre mot de passe est trop simple !'
 

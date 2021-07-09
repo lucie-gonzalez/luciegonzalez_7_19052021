@@ -76,9 +76,7 @@ exports.getActus = async (req,res) => {
                 comments: comment
             })
         }
-
         res.status(200).json(Actus)
-        
     } catch(err) { // Récupére une erreur et l'envoie au client
         return res.status(500).json(err)
     }
@@ -106,7 +104,7 @@ exports.post = async (req, res) => {
     }
 }
 
-// Delete un post
+// supprime un post
 exports.deletePost = async (req, res, next) => {
     const { id } = req.params
     const { userId, role } = req.token
@@ -127,7 +125,7 @@ exports.deletePost = async (req, res, next) => {
     }
 }
 
-// Delete un post
+// Supprime un commentaire
 exports.deleteCom = async (req, res) => {
     const { id } = req.params
     const { userId, role } = req.token
@@ -146,6 +144,7 @@ exports.deleteCom = async (req, res) => {
 
 // Ajoute un like sur un post
 exports.likePost = async (req, res) => {
+
     //Réception des informations
     const { idPost } = req.body
     const { userId } = req.token
@@ -164,14 +163,17 @@ exports.likePost = async (req, res) => {
             const update = await db.query(insertSQL)
             if (!update) throw 'insertion like error'
             return res.status(201).json({statut: 1})
+
         } else if (postLike[0][0].statut === 1) {
             const update = await db.query(delSQL)
             if (!update) throw 'insertion like error'
             return res.status(200).json({statut: 0})
+
         } else if (postLike[0][0].statut === -1) {
             const update = await db.query(updateSQL)
             if (!update) throw 'insertion like error'
             return res.status(200).json({statut: -1})
+
         } else {
             throw 'error set like'
         }
@@ -182,6 +184,7 @@ exports.likePost = async (req, res) => {
 
 // Ajoute un dislike sur un post
 exports.dislikePost = async (req, res) => {
+
     //Réception des informations
     const { idPost } = req.body
     const { userId } = req.token
@@ -200,14 +203,17 @@ exports.dislikePost = async (req, res) => {
             const update = await db.query(insertSQL)
             if (!update) throw 'insertion like error'
             return res.status(201).json({statut: -1})
+
         } else if (postLike[0][0].statut === -1) {
             const update = await db.query(delSQL)
             if (!update) throw 'insertion like error'
             return res.status(200).json({statut: 0})
+
         } else if (postLike[0][0].statut === 1) {
             const update = await db.query(updateSQL)
             if (!update) throw 'insertion like error'
             return res.status(200).json({statut: 1})
+
         } else {
             throw 'error set like'
         }
