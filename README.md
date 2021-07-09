@@ -97,9 +97,9 @@ npm install
 
 *Création d'un fichier .env*
 
-SECRET= "Créez votre propre Token"
-user="Votre username MySQL"
-mp="Votre mot de passe MySQL"
+SECRET= Créez votre propre Token
+user= Votre username MySQL
+mp= Votre mot de passe MySQL
 db= groupomania
 pt= 3306
 
@@ -110,7 +110,7 @@ npm install -g nodemon
 => écrire dans le terminal backend la commande :
 nodemon server
 
-**Le backend est à présent opérationnel**
+**Le back-end est à présent opérationnel**
 
 #########################################
 
@@ -124,6 +124,9 @@ npm install
 
 *lancement du front-end*
 ng serve --open
+
+
+**Le front-end est à présent opérationnel**
 
 #########################################
 
