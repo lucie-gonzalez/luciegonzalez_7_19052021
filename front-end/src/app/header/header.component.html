@@ -1,21 +1,21 @@
 <nav class="navbar navbar-expand navbar-dark ">
   <div class="container">
     <a class="navbar-brand" [routerLink]="homePage()">
-        <img src="../../assets/images/logos/icon-above-font.png" alt="" width="150" height="135" alt="logo groupomania">
+        <img src="../../assets/images/logos/icon-above-font.png"  width="150" height="135" alt="logo groupomania">
     </a>
       <div class="d-grid gap-2 d-flex justify-content-end" *ngIf="!isAuth">
         <button type="button" routerLink="signup" class="btn btn-lg btn-outline-light me-2">S'inscrire</button>
         <button type="button" routerLink="login" class="btn btn-lg btn-outline-light">Se connecter</button>
       </div>
-      <ul class="navbar-nav d-flex justify-content-end align-items-center" *ngIf="isAuth">
+      <ul class="navbar-nav d-flex justify-content-end align-items-center"  *ngIf="isAuth">
         <a class="nav-link-gp me-2" [routerLink]="viewProfil()">
           <img [src]="img_profil" class="img-profil" alt="photo de profil">
         </a>
-        <a class="nav-link-gp waves-effect waves-light me-2" [routerLink]="['/setting']">
-          <i class="nav-ico fas fa-cogs"></i>
+        <a class="nav-link-gp waves-effect waves-light me-2"  [routerLink]="['/setting']">
+          <i class="nav-ico fas fa-cogs"alt="setting"></i>
         </a>
         <a class="nav-link-gp waves-effect waves-light me-2" (click)="onLogout()">
-          <i class="nav-ico fas fa-sign-out-alt"></i>
+          <i class="nav-ico fas fa-sign-out-alt"alt="deconnexion"></i>
         </a>
       </ul>
   </div>
