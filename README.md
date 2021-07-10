@@ -11,12 +11,12 @@ Le projet a été généré avec Angular CLI version 12.1.1.
 - bcrypt@5.0.1
 - express@4.17.1
 - nodejs@0.0.0
-- nodemon@2.0.10
-- npm@7.18.1
+- nodemon@2.0.11
+- npm@7.19.1
 - mysql2-promise@0.1.4
 - autoprefixer@10.2.6
 - postcss-cli@8.3.1
-- sass@1.35.1
+- sass@1.35.2
 - workbensh 8.0
 
 Pour faire fonctionner le projet, vous devez installer node-sass à part.
