@@ -1,16 +1,14 @@
 **screen de l'application**
+![image](https://user-images.githubusercontent.com/76063929/125630126-ad3901af-6daa-460f-900a-5d7a3874e33b.png)
+![image](https://user-images.githubusercontent.com/76063929/125630180-27820d0f-c41f-4b30-89f9-4f0ecf73084f.png)
+![image](https://user-images.githubusercontent.com/76063929/125630258-569be9c5-f7ee-4aa9-be97-4161e8cfc487.png)
+![image](https://user-images.githubusercontent.com/76063929/125630381-ac4844d7-052f-4484-9012-e4b8d11cfee2.png)
+![image](https://user-images.githubusercontent.com/76063929/125630322-954a06f5-b6c6-47c4-9372-da73aca7a3ec.png)
+![image](https://user-images.githubusercontent.com/76063929/125630491-14ffec65-ddef-4e19-b14d-0f3cec9527c1.png)
+![image](https://user-images.githubusercontent.com/76063929/125630437-05b9eb6a-ab0c-4ef9-9ee7-c48c380503a4.png)
+![image](https://user-images.githubusercontent.com/76063929/125630556-4c72e044-0fdc-41f2-963b-e15f41eed0aa.png)
 
-![image](https://user-images.githubusercontent.com/76063929/125629375-92ca0b32-22e0-4cfd-9d69-e2a34247ca91.png)
-![image](https://user-images.githubusercontent.com/76063929/125629463-70a9dcfd-5dc5-4c56-a1d3-d2b45afcdd7e.png)
 
-![image](https://user-images.githubusercontent.com/76063929/125629512-820aa911-759b-4353-806e-810404e3bb28.png)
-
-![image](https://user-images.githubusercontent.com/76063929/125629651-ddb3fb55-3561-4ed9-8399-3add83949442.png)
-
-![image](https://user-images.githubusercontent.com/76063929/125629740-1061ecb7-9773-462b-b245-511a0aace080.png)
-
-
-![image](https://user-images.githubusercontent.com/76063929/125629707-0049721c-e341-4de2-9986-bab9dbdb842e.png)
 
 
 
