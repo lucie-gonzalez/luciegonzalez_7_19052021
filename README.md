@@ -1,4 +1,4 @@
-**screen de l'application**
+**Screen de l'application**
 ![image](https://user-images.githubusercontent.com/76063929/125630126-ad3901af-6daa-460f-900a-5d7a3874e33b.png)
 ![image](https://user-images.githubusercontent.com/76063929/125630180-27820d0f-c41f-4b30-89f9-4f0ecf73084f.png)
 ![image](https://user-images.githubusercontent.com/76063929/125630258-569be9c5-f7ee-4aa9-be97-4161e8cfc487.png)
@@ -7,11 +7,6 @@
 ![image](https://user-images.githubusercontent.com/76063929/125630491-14ffec65-ddef-4e19-b14d-0f3cec9527c1.png)
 ![image](https://user-images.githubusercontent.com/76063929/125630437-05b9eb6a-ab0c-4ef9-9ee7-c48c380503a4.png)
 ![image](https://user-images.githubusercontent.com/76063929/125630556-4c72e044-0fdc-41f2-963b-e15f41eed0aa.png)
-
-
-
-
-
 
 **Groupomania**
 
