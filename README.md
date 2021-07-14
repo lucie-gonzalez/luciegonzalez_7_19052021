@@ -1,3 +1,20 @@
+**screen de l'application**
+
+![image](https://user-images.githubusercontent.com/76063929/125629375-92ca0b32-22e0-4cfd-9d69-e2a34247ca91.png)
+![image](https://user-images.githubusercontent.com/76063929/125629463-70a9dcfd-5dc5-4c56-a1d3-d2b45afcdd7e.png)
+
+![image](https://user-images.githubusercontent.com/76063929/125629512-820aa911-759b-4353-806e-810404e3bb28.png)
+
+![image](https://user-images.githubusercontent.com/76063929/125629651-ddb3fb55-3561-4ed9-8399-3add83949442.png)
+
+![image](https://user-images.githubusercontent.com/76063929/125629740-1061ecb7-9773-462b-b245-511a0aace080.png)
+
+
+![image](https://user-images.githubusercontent.com/76063929/125629707-0049721c-e341-4de2-9986-bab9dbdb842e.png)
+
+
+
+
 **Groupomania**
 
 Création du réseau social d'entreprise Groupomania afin que les employés échangent sur des sujets divers.
